@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    padding: 25px;
+    position: fixed; /* Fijar el encabezado en su posición */
+    top: 0; /* Colocar el encabezado en la parte superior */
+    width: 100%; /* Ancho completo del encabezado */
+    background-color: #F7F7F7; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    height: 15px;
+
+}
+
+.logo{
+
+    height: 40px;
+    border-color: red;
+}
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#inicio {
+
+    margin-top: 125px;
+    
+}
+
+#servicios{
+
+    margin-top: 30px;
+}
+
+.ajuste_imagen{
+
+    width: 98%  ; /* La imagen no será más grande que el ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    display: block; /* Para evitar espacios no deseados debajo de la imagen */
+    margin: 10px;
+    border-color: #000000;
+
+
+}
+
+h2{
+    font-family: sans-serif;
+    text-align: center;
+
+}
+h3{
+    font-family: cursive;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6px;
+}
+
+form {
+    display: flex;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+button:hover {
+    background-color: #0000ff ;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
