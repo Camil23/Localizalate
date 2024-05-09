@@ -4,43 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cementerio Duitama</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesIndex.css">
 </head>
 <body>
     <header>
-       <img src="C:\Users\Camilo Baron\Desktop\proyecto cementerio/logo.jpg" class="logo">
+       <img src="C:\Users\Camilo Baron\Desktop\hml  css\Imagenes/logo.jpg" class="logo">
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#ingresar">Ingresar</a></li>
+                <li><a href="RegistroUsuario.html">Inicio</a></li>
+                <li><a href="InicioSesion.html">Ingresar</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="inicio">
         
-        <!--<p>Ofrecemos servicios funerarios y de sepelio con respeto y dignidad.</p>-->
-        <img src="C:\Users\Camilo Baron\Desktop\proyecto cementerio/fondo.jpg" class="ajuste_imagen">
+        <img src="C:\Users\Camilo Baron\Desktop\hml  css\Imagenes/fondo.jpg" class="ajuste_imagen">
     </section>
 
     <section id="servicios">
         <h2>Encuentra la ubicacion de tu ser querido</h2>
 
     <div class="container">
-        <h3>Nombre de la persona</h3>
+        <h3>Nombre de la persona: </h3>
+       <span style="white-space: pre;">&nbsp;</span>
         <form action="/buscar" method="GET">
-            <input type="text" name="q" placeholder="Buscar...">
+            <input type="text" name="q" placeholder="Ingrese aqui el nombre de su familiar">
             <button type="submit">Buscar</button>
         </form>
     </div>
-
-       
+        
     </section>
 
+<div class="container2">
+    <h2>  </h2>
 
-
-   <!-- <footer>
-        <p>&copy; 2024 Cementerio San Juan</p>
-    </footer>-->
+    <table>
+      <tr>
+        <th>Nombre Difunto</th>
+        <th>Ubicacion</th>
+        <th>Numero de la Bobeda</th>
+      </tr>
+      <tr>
+        <td>Juan</td>
+        <td>San Mateo</td>
+        <td>234</td>
+      </tr>
+     
+      
+    </table>
+    <h2></h2>
+</div>
+  
 </body>
 </html>
